@@ -8,8 +8,8 @@ The PDF Processing Toolkit is a Python-based PDF processing toolkit designed to 
 
 The PDF Processing Toolkit offers a comprehensive suite of features to simplify PDF management:
 
-- 📄 [Split PDFs](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Split_PDFs.py) Divide a large PDF into smaller files.
-- 📉 [**Optimize PDFs**](src/Optimize_PDFs.py): Reduce file size without losing quality.
+- 📄 [Split PDFs](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Split_PDFs.py): Divide a large PDF into smaller files.
+- 📉 [**Optimize PDFs**](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Optimize_PDFs.py): Reduce file size without losing quality.
 - 📑 [**Merge PDFs**](src/Merge_PDFs.py): Combine multiple PDF files into one.
 - 🔄 [**Rotate PDFs**](src/Rotate_PDFs.py): Rotate pages to the desired orientation.
 - 🔀 [**Rearrange PDFs**](src/Rearrange_PDFs.py): Reorder pages for better organization.
