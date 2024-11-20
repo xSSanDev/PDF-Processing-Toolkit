@@ -1,6 +1,6 @@
 # PDF Processing Toolkit
 
-## ![PDF Processing Toolkit Banner](PDF-Processing-Toolkit/banner/PDF Processing Toolkit.jpg)
+## ![PDF Toolkit Banner](PDF-Processing-Toolkit/banner/PDF%20Processing%20Toolkit.jpg)
 
 The PDF Processing Toolkit is a Python-based PDF processing toolkit designed to make managing and editing PDF files effortless. It offers many features, including splitting, merging, optimizing, rotating, rearranging, extracting text and images, encrypting/decrypting PDFs, and managing metadata. Whether you’re a professional handling documents or a developer seeking a robust PDF utility, this toolkit is your one-stop solution.
 
