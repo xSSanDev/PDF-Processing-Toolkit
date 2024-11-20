@@ -1,5 +1,5 @@
 import PyPDF2
-
+# install PyPDF2 using pip install PyPDF2
 def split_pdf(pdf_path, output_dir):
     pdf_reader = PyPDF2.PdfReader(pdf_path)
     for page_num in range(len(pdf_reader.pages)):
@@ -12,4 +12,4 @@ def split_pdf(pdf_path, output_dir):
         print(f"saved {output_page}")
 
 #let's use the function
-split_pdf('../../merged.pdf', 'pdf_files')
+split_pdf('[pdf path]', '[output directory]')

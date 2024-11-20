@@ -1,5 +1,5 @@
 import PyPDF2
-
+# install PyPDF2 using pip install PyPDF2
 def rotate_pages(input_pdf, output_pdf, rotation):
     pdf_reader = PyPDF2.PdfReader(input_pdf)
     pdf_writer = PyPDF2.PdfWriter()
@@ -15,4 +15,5 @@ def rotate_pages(input_pdf, output_pdf, rotation):
     print(f"Pages rotated and saved to {output_pdf}")
 
 # let's use the function
-rotate_pages('pdf1.pdf', 'rotated.pdf', 180)
+# remove [] and add the required values ,
+rotate_pages('[input pdf]', '[output pdf]', 180)

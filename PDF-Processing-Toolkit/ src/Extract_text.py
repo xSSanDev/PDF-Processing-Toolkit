@@ -1,5 +1,5 @@
 import pdfplumber
-
+#install pdfplumber using pip install pdfplumber
 def extract_text(pfd_path, output_text_path):
     with pdfplumber.open(pfd_path) as pdf:
         full_text = ''
@@ -11,4 +11,5 @@ def extract_text(pfd_path, output_text_path):
     print(f"Extracted text is saved as {output_text_path}")
 
 # let's use the function
-extract_text('../../pdf1.pdf', 'output1.txt')
+# remove [] and add the required values
+extract_text('[pdf path]', '[output text path]')

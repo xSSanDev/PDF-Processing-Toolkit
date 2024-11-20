@@ -1,5 +1,5 @@
 import PyPDF2
-
+# install PyPDF2 using pip install PyPDF2
 def merge_pdfs(pdf_list, output_pdf):
     pdf_writer = PyPDF2.PdfWriter()
     for pdf in pdf_list:
@@ -11,4 +11,5 @@ def merge_pdfs(pdf_list, output_pdf):
     print(f"Merged PDF saved as {output_pdf}")
 
 #let's use the function
-merge_pdfs(['pdf1.pdf', 'pdf2.pdf'], 'merged.pdf')
+# remove [] and add the required values
+merge_pdfs(['pdf list'], '[output pdf]')

@@ -1,5 +1,5 @@
 import PyPDF2
-
+#install PyPDF2
 def read_metadata(pdf_file):
     pdf_reader = PyPDF2.PdfReader(pdf_file)
     metadata = pdf_reader.metadata

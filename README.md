@@ -1,29 +1,54 @@
-## Design
+# PDF Processing Toolkit
 
-### Architecture
+## ![PDF Processing Toolkit Banner](PDF-Processing-Toolkit/banner/PDF Processing Toolkit.jpg)
 
-The PDF Processing Toolkit is designed with modular scripts, each responsible for a specific PDF manipulation task. The main components are:
+The PDF Processing Toolkit is a Python-based PDF processing toolkit designed to make managing and editing PDF files effortless. It offers a wide range of features including splitting, merging, optimizing, rotating, rearranging, extracting text and images, encrypting/decrypting PDFs, and managing metadata. Whether you’re a professional handling documents or a developer seeking a robust PDF utility, this toolkit is your one-stop solution.
 
-- `merge_pdfs.py`: Merges multiple PDF files into one.
-- `add_metadata.py`: Adds metadata to a PDF file.
-- `read_metadata.py`: Reads metadata from a PDF file.
-- `extract_images.py`: Extracts images from a PDF file.
-- `rearrange_pages.py`: Rearranges pages in a PDF file.
-- `rotate_pages.py`: Rotates pages in a PDF file.
-- `optimize_pdf.py`: Optimizes a PDF file for size.
+## Features Overview
 
-### Flow
+The PDF Processing Toolkit offers a comprehensive suite of features to simplify PDF management:
 
-1. **Input**: The user provides the necessary input files and parameters.
-2. **Processing**: The respective script processes the input as per the user's request.
-3. **Output**: The processed PDF file is saved to the specified output location.
+- 📄 [**Split PDFs**](#split-pdfs): Divide a large PDF into smaller files.
+- 📉 [**Optimize PDFs**](#optimize-pdfs): Reduce file size without losing quality.
+- 📑 [**Merge PDFs**](#merge-pdfs): Combine multiple PDF files into one.
+- 🔄 [**Rotate PDFs**](#rotate-pdfs): Rotate pages to the desired orientation.
+- 🔀 [**Rearrange PDFs**](#rearrange-pdfs): Reorder pages for better organization.
+- 📝 [**Read Metadata**](#read-metadata): Extract metadata from PDF files.
+- 🏷️ [**Add Metadata**](#add-metadata): Insert or update metadata in PDFs.
+- 🖋️ [**Extract Text**](#extract-text): Extract all textual content from PDFs.
+- 🖼️ [**Extract Images**](#extract-images): Retrieve embedded images from PDF files.
+- 🔒 [**Encrypt PDFs**](#encrypt-pdfs): Secure your PDF files with a password.
+- 🔓 [**Decrypt PDFs**](#decrypt-pdfs): Remove encryption from secured PDFs.
 
-### Diagrams
+## Setup/Installation Instructions
 
-#### Component Diagram
+Follow these steps to set up the PDF Processing Toolkit on your system:
 
-![Component Diagram](path/to/component-diagram.png)
+### Prerequisites
 
-#### Flow Diagram
+- Python (version 3.7 or later)
+- pip (Python package installer)
 
-![Flow Diagram](path/to/flow-diagram.png)
+### Installation
+
+#### Clone the Repository
+
+Download the source code from the GitHub repository:
+
+```bash
+git clone https://github.com/xSSanDev/PDF-Processing-Toolkit.git
+cd PDF-Processing-Toolkit
+```
+#### Create and Activate a Virtual Environment (optional but recommended)
+```bash
+python -m venv venv
+source venv/bin/activate      # On macOS/Linux
+venv\Scripts\activate         # On Windows
+```
+#### Running the Toolkit
+```bash
+python [filename].py
+```
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](PDF-Processing-Toolkit/LICENSE) file for details.

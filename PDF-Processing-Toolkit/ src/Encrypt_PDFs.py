@@ -1,6 +1,5 @@
 import PyPDF2
-
-
+# install PyPDF2 using pip install PyPDF2
 def encrypt_pdf(input_pdf, output_pdf, password):
     pdf_reader = PyPDF2.PdfReader(input_pdf)
     pdf_writer = PyPDF2.PdfWriter()
@@ -16,4 +15,5 @@ def encrypt_pdf(input_pdf, output_pdf, password):
     print(f"Encrypted PDF saved as {output_pdf}")
 
 # let's use the function
-encrypt_pdf('merged.pdf', 'encrypted.pdf', 'xSSanDev')
+# remove [] and add the required values
+    encrypt_pdf('[input pdf]', '[output pdf]', '[password]')

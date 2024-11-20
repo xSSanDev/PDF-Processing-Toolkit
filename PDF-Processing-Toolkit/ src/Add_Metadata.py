@@ -1,6 +1,6 @@
 #Adding metadata to a PDF file
+#insatll PyPDF2 library using pip install PyPDF2
 import PyPDF2
-
 def add_metadata(input_pdf, output_pdf, title, author):
     pdf_reader = PyPDF2.PdfReader(input_pdf)
     pdf_writer = PyPDF2.PdfWriter()
@@ -20,5 +20,5 @@ def add_metadata(input_pdf, output_pdf, title, author):
         pdf_writer.write(out)
 
     print(f"PDF with added metadata saved as {output_pdf}")
-#let's use the function
-add_metadata('merged.pdf', 'metadata_added1.pdf', 'Immunolodie Resourses', 'Anass Zeroul')
+#remove [] and add the required values
+add_metadata('[input pdf]', '[output pdf]', '[title]', '[author]')

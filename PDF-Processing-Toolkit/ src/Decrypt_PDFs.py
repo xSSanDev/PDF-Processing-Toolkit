@@ -1,4 +1,5 @@
-#let's Remove password from the encrypted PDF
+# let's Remove password from the encrypted PDF
+# install PyPDF2 library using : pip install PyPDF2
 import PyPDF2
 def decrypt_pdf(input_pdf, output_pdf, password):
     pdf_reader = PyPDF2.PdfReader(input_pdf)
@@ -14,4 +15,5 @@ def decrypt_pdf(input_pdf, output_pdf, password):
     print(f"Decrypted PDF saved as {output_pdf}")
 
 # let's use the function
-decrypt_pdf('encrypted.pdf', 'decrypted.pdf', 'xSSanDev')
+# remove [] and add the required values
+decrypt_pdf('[input pdf]', '[output pdf]f', '[password]')

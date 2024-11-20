@@ -1,5 +1,5 @@
 import fitz  # PyMuPDF
-
+# install PyMuPDF: pip install PyMuPDF
 def extract_images(pdf_path, output_dir):
     pdf_document = fitz.open(pdf_path)
     for page_index in range(len(pdf_document)):
@@ -18,4 +18,5 @@ def extract_images(pdf_path, output_dir):
             print(f"Saved {image_filename}")
 
 # let's use the function
-extract_images('../../Sleep-Doctor_BetterSleepHabits_Guidebook-Bear.pdf', 'images')
+# remove [] and add the required values
+extract_images('[pdf path]', '[output directory]')
