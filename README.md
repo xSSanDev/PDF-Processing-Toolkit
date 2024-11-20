@@ -1,6 +1,6 @@
 # PDF Processing Toolkit
 
-## ![PDF Processing Toolkit ](PDF-Processing-Toolkit/banner/PDF Processing Toolkit.jpg)
+## ![PDF Processing Toolkit Banner](PDF-Processing-Toolkit/banner/PDF Processing Toolkit.jpg)
 
 The PDF Processing Toolkit is a Python-based PDF processing toolkit designed to make managing and editing PDF files effortless. It offers a wide range of features including splitting, merging, optimizing, rotating, rearranging, extracting text and images, encrypting/decrypting PDFs, and managing metadata. Whether you’re a professional handling documents or a developer seeking a robust PDF utility, this toolkit is your one-stop solution.
 
@@ -8,17 +8,17 @@ The PDF Processing Toolkit is a Python-based PDF processing toolkit designed to 
 
 The PDF Processing Toolkit offers a comprehensive suite of features to simplify PDF management:
 
-- 📄 [**Split PDFs**](src/Split_PDFs.py): Divide a large PDF into smaller files.
-- 📉 [**Optimize PDFs**](src/Optimize_PDFs.py): Reduce file size without losing quality.
-- 📑 [**Merge PDFs**](src/Merge_PDFs.py): Combine multiple PDF files into one.
-- 🔄 [**Rotate PDFs**](src/Rotate_PDFs.py): Rotate pages to the desired orientation.
-- 🔀 [**Rearrange PDFs**](src/Rearrange_PDFs.py): Reorder pages for better organization.
-- 📝 [**Read Metadata**](src/Read_Metadata.py): Extract metadata from PDF files.
-- 🏷️ [**Add Metadata**](src/Add_Metadata.py): Insert or update metadata in PDFs.
-- 🖋️ [**Extract Text**](src/Extract_Text.py): Extract all textual content from PDFs.
-- 🖼️ [**Extract Images**](src/Extract_Images.py): Retrieve embedded images from PDF files.
-- 🔒 [**Encrypt PDFs**](src/Encrypt_PDFs.py): Secure your PDF files with a password.
-- 🔓 [**Decrypt PDFs**](src/Decrypt_PDFs.py): Remove encryption from secured PDFs.
+- 📄 [**Split PDFs**](#split-pdfs): Divide a large PDF into smaller files.
+- 📉 [**Optimize PDFs**](#optimize-pdfs): Reduce file size without losing quality.
+- 📑 [**Merge PDFs**](#merge-pdfs): Combine multiple PDF files into one.
+- 🔄 [**Rotate PDFs**](#rotate-pdfs): Rotate pages to the desired orientation.
+- 🔀 [**Rearrange PDFs**](#rearrange-pdfs): Reorder pages for better organization.
+- 📝 [**Read Metadata**](#read-metadata): Extract metadata from PDF files.
+- 🏷️ [**Add Metadata**](#add-metadata): Insert or update metadata in PDFs.
+- 🖋️ [**Extract Text**](#extract-text): Extract all textual content from PDFs.
+- 🖼️ [**Extract Images**](#extract-images): Retrieve embedded images from PDF files.
+- 🔒 [**Encrypt PDFs**](#encrypt-pdfs): Secure your PDF files with a password.
+- 🔓 [**Decrypt PDFs**](#decrypt-pdfs): Remove encryption from secured PDFs.
 
 ## Setup/Installation Instructions
 
