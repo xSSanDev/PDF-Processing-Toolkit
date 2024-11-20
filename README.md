@@ -10,15 +10,15 @@ The PDF Processing Toolkit offers a comprehensive suite of features to simplify 
 
 - 📄 [Split PDFs](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Split_PDFs.py): Divide a large PDF into smaller files.
 - 📉 [**Optimize PDFs**](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Optimize_PDFs.py): Reduce file size without losing quality.
-- 📑 [**Merge PDFs**](src/Merge_PDFs.py): Combine multiple PDF files into one.
-- 🔄 [**Rotate PDFs**](src/Rotate_PDFs.py): Rotate pages to the desired orientation.
-- 🔀 [**Rearrange PDFs**](src/Rearrange_PDFs.py): Reorder pages for better organization.
-- 📝 [**Read Metadata**](src/Read_Metadata.py): Extract metadata from PDF files.
-- 🏷️ [**Add Metadata**](src/Add_Metadata.py): Insert or update metadata in PDFs.
-- 🖋️ [**Extract Text**](src/Extract_Text.py): Extract all textual content from PDFs.
-- 🖼️ [**Extract Images**](src/Extract_Images.py): Retrieve embedded images from PDF files.
-- 🔒 [**Encrypt PDFs**](src/Encrypt_PDFs.py): Secure your PDF files with a password.
-- 🔓 [**Decrypt PDFs**](src/Decrypt_PDFs.py): Remove encryption from secured PDFs.
+- 📑 [**Merge PDFs**]([src/Merge_PDFs.py](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Merge_PDFs.py)): Combine multiple PDF files into one.
+- 🔄 [**Rotate PDFs**]([src/Rotate_PDFs.py](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Rotate_PDFs.py)): Rotate pages to the desired orientation.
+- 🔀 [**Rearrange PDFs**]([src/Rearrange_PDFs.py](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Rearrange_PDFs.py)): Reorder pages for better organization.
+- 📝 [**Read Metadata**]([src/Read_Metadata.py](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Read_Metadata.py)): Extract metadata from PDF files.
+- 🏷️ [**Add Metadata**]([src/Add_Metadata.py](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Add_Metadata.py)): Insert or update metadata in PDFs.
+- 🖋️ [**Extract Text**]([src/Extract_Text.py](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Extract_text.py)): Extract all textual content from PDFs.
+- 🖼️ [**Extract Images**]([src/Extract_Images.py](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Extract_Images.py)): Retrieve embedded images from PDF files.
+- 🔒 [**Encrypt PDFs**]([src/Encrypt_PDFs.py](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Encrypt_PDFs.py)): Secure your PDF files with a password.
+- 🔓 [**Decrypt PDFs**]([src/Decrypt_PDFs.py](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/%20src/Decrypt_PDFs.py)): Remove encryption from secured PDFs.
 
 ## Setup/Installation Instructions
 
@@ -52,4 +52,4 @@ python [filename].py
 ## License
 
 This project is licensed under the MIT License - 
-see the [LICENSE](PDF-Processing-Toolkit/LICENSE) file for details.
+see the [LICENSE]([PDF-Processing-Toolkit/LICENSE](https://github.com/xSSanDev/PDF-Processing-Toolkit/blob/master/PDF-Processing-Toolkit/LICENCE)) file for details.
