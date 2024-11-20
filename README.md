@@ -51,4 +51,5 @@ python [filename].py
 ```
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](PDF-Processing-Toolkit/LICENSE) file for details.
+This project is licensed under the MIT License - 
+see the [LICENSE](PDF-Processing-Toolkit/LICENSE) file for details.
