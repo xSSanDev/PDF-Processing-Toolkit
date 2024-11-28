@@ -19,4 +19,4 @@ def extract_images(pdf_path, output_dir):
 
 # let's use the function
 # remove [] and add the required values
-extract_images('[pdf path]', '[output directory]')
+extract_images('pdf_path', 'output_dir')
